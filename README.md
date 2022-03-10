@@ -3,7 +3,7 @@ Whoami!⚡
 <h1 align="center">Hi 👋, I'm A3M Social Media Marketing</h1>
 
 <div align="center">
-    <h1> <img src="https://a3m-smm.netlify.app/img/about-img.png" width="500px"><br/>A3M-SMM</h1>
+    <h1> <img src="https://a3m-smm.netlify.app/img/contact-img.png" width="500px"><br/>A3M-SMM</h1>
 </div>
 
 # Descripcion
