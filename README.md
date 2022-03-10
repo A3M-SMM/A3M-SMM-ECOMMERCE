@@ -30,6 +30,6 @@ $ npm start
 ```
 
 # Screenshot
-!["React Ecommerce App"](https://raw.githubusercontent.com/kasim393/NFT-Marketplace/main/src/assets/ss1.png)
+!["React Ecommerce App"](src/assets/ss1.png)
 
 !["React Ecommerce App"](https://raw.githubusercontent.com/kasim393/NFT-Marketplace/main/src/assets/ss4.png)
