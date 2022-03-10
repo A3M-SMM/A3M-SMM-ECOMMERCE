@@ -1,0 +1,105 @@
+.profile{
+  padding:  0;
+  /* padding-bottom: 6rem; */
+}
+.profile-top{
+  position: relative;
+  padding-bottom: 3.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.profile-banner{
+  width: 100%;
+}
+.profile-banner img{
+  width: 100%;
+  object-fit: cover;
+}
+.profile-pic{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  margin-top: -100px;
+}
+.profile-pic img{
+  box-shadow: 0 .5rem 2rem rgba(0,0,0,.1);
+  border: 0.5rem solid rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  width: 90%;
+}
+.profile-pic h3{
+  font-family: 'Gugi', cursive;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+  color: #FC0CA4; 
+}
+.profile-bottom{
+  /* padding: 4rem 6rem; */
+}
+.profile-bottom-input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-bottom-input input{
+  background: #fff;
+  border-radius: 10px;
+  border: none;
+  padding: 7px 19px 7px 15px;
+  font-family: 'Gugi', cursive;
+  outline: none;
+  color: #403D52;
+  flex:0.3;
+  display: flex;
+  margin-right: 1rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+}
+.profile-bottom-input select{
+  background: #fff;
+  border-radius: 10px;
+  border: none;
+  padding: 7px 19px 7px 15px;
+  font-family: 'Gugi', cursive;
+  outline: none;
+  color: #403D52;
+  flex:0.1;
+  display: flex;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+
+}
+
+@media screen  and (max-width:1050px){
+  .profile-pic img{
+    width: 50%;
+  }
+  .profile-pic{
+    margin-top: -50px;
+  }
+
+}
+@media screen  and (max-width:550px){
+  .profile-pic h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .profile.section__padding{
+    padding: 1rem 0px !important;
+  }
+}
+@media screen  and (max-width:500px){
+  .profile-bottom-input {
+    display: none;
+  }
+  .profile-top{
+    padding-bottom: 1rem;
+  }
+}
